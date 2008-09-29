@@ -16,6 +16,7 @@ a {
 /* layout elements */
 body {
     background:#fff;
+    font:13px/1.5 "Helvetica Neue",Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif
 }
 #wrapper {
 	width:940px;
