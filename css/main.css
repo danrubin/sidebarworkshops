@@ -1,0 +1,167 @@
+/* @override http://sidebarworkshops.com/css/main.css */
+
+/*
+-----------------------------------------------
+sidebar workshops
+author: dan rubin
+edited: 2008-09-29
+----------------------------------------------- */
+
+/* override anything global */
+a {
+	text-decoration:none;
+}
+
+
+/* layout elements */
+body {
+    background:#fff;
+}
+.container_12 {
+	width:940px;
+	/*height:100%;*/
+	background:#0d0d0d;
+	border-width:0 6px;
+	border-color:#f2f2f2;
+	border-style:solid;
+}
+.grid_11 {
+	margin:0 40px;
+}
+
+#header {
+	position:relative;
+	display:block;
+	height:568px;
+	margin:0;
+	background-repeat:no-repeat;
+}
+#shadow {
+	position:absolute;
+	bottom:0;
+	height:120px;
+	width:940px;
+	background:url(images/bg-header-shadow.png) repeat-x;
+}
+
+#header h1 a {
+	position:absolute;
+	left:0;
+	top:10px;
+	height:67px;
+	width:280px;
+	background:url(images/logo.png);
+	text-indent:-9999px;
+}
+#header h1 a:hover {
+	background-position:0 -67px;
+}
+
+#title {
+	position:absolute;
+	right:0;
+	top:36px;
+	height:194px;
+	margin:0;
+	background:url(images/bg-title.png) no-repeat;
+}
+#title h2 {
+	height:133px;
+	width:484px;
+	margin:50px 0 0 17px;
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+}
+#title h3 {
+	text-indent:-9999px;
+}
+
+#nav {
+	position:absolute;
+	right:0;
+	top:230px;
+	height:31px;
+	margin:0;
+}
+#nav li {
+	float:left;
+	list-style:none;
+	margin:0 3px 0 0;
+}
+#nav li a {
+	float:left;
+	height:31px;
+	padding:0 20px;
+	background:url(images/bg-nav.png);
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	line-height:33px;
+	text-align:center;
+}
+#nav li a:hover {
+	background:#99100f;
+}
+
+#content {
+	position:relative;
+	z-index:1;
+	margin:-95px 25px 0;
+	padding:15px 15px 0;
+	background:url(images/bg-content.png) no-repeat;
+}
+#content a#callout {
+	display:block;
+	width:872px;
+	height:53px;
+	margin:-53px 0 0 -6px;
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+}
+#content a#callout:hover {
+	background-position:0 -53px;
+}
+
+#content div {
+	background-color:#fff;
+}
+#content h2 {
+	float:left;
+	width:240px;
+	background-repeat:no-repeat;
+	background-position:9px;
+	border-top:6px solid #f2f2f2;
+	text-indent:-9999px;
+}
+#content p {
+	width:540px;
+	margin:0 0 0 300px;
+	padding:15px 0 19px;
+	color:#333;
+	font-size:12px;
+	line-height:17px;
+}
+
+/* red headings */
+#content #register h2 { background-image:url(images/hdr-register.png); }
+#content #about h2 { background-image:url(images/hdr-about.png); }
+#content #location h2 { background-image:url(images/hdr-location.png); }
+#content #contact h2 { background-image:url(images/hdr-contact.png); }
+
+
+#footer {
+	margin-top:20px;
+	padding-top:3px;
+	border-top:3px solid #2d2d2d;
+	color:#3e3e3e;
+	font-size:10px;
+	font-weight:bold;
+}
+#footer a {
+	padding:1px;
+	color:#3e3e3e;
+}
+#footer a:hover {
+	border-bottom:2px solid #1e1e1e;
+	color:#474747;
+}
