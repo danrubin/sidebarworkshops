@@ -4,7 +4,7 @@
 -----------------------------------------------
 sidebar workshops
 author: dan rubin
-edited: 2008-09-29
+edited: 2008-09-30
 ----------------------------------------------- */
 
 /* override anything global */
@@ -263,10 +263,16 @@ body {
 }
 #content table td a {
 	display:block;
-	color:#999;
+	color:#777;
 }
 #content table td a:hover {
 	color:#ad1d0a;
+}
+
+#content table tr.session td,
+#content table tr.session h3,
+#content table tr.session p {
+	color:#777;
 }
 
 
