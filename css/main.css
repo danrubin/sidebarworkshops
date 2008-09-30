@@ -9,6 +9,7 @@ edited: 2008-09-29
 
 /* override anything global */
 a {
+	color:#ad1d0a;
 	font-weight:bold;
 	text-decoration:none;
 }
@@ -162,6 +163,10 @@ body {
 	width:520px;
 	padding:0 0 1em;
 }
+#content p a:hover {
+	border-bottom:2px solid #e6e6e6;
+}
+
 
 /* schedule table */
 #content table {
