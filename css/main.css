@@ -9,6 +9,7 @@ edited: 2008-09-29
 
 /* override anything global */
 a {
+	font-weight:bold;
 	text-decoration:none;
 }
 
@@ -16,7 +17,7 @@ a {
 /* layout elements */
 body {
     background:#fff;
-    font:13px/1.5 "Helvetica Neue",Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif
+    font:12px/17px "Helvetica Neue",Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif
 }
 #wrapper {
 	width:940px;
@@ -124,12 +125,14 @@ body {
 }
 
 #content div {
+	padding:16px 0 1em;
 	background-color:#fff;
 }
 #content h2 {
 	float:left;
 	width:240px;
 	height:23px;
+	margin-top:-16px;
 	background-repeat:no-repeat;
 	background-position:9px 9px;
 	border-top:6px solid #f2f2f2;
@@ -141,20 +144,29 @@ body {
 #content #location h2 { background-image:url(images/hdr-location.png); }
 #content #contact h2 { background-image:url(images/hdr-contact.png); }
 
-
+#content h3,
+#content h4,
+#content p {
+	margin:0 0 0 300px;
+	color:#666;
+}
+#content h3 {
+	margin-bottom:.5em;
+	color:#999;
+	text-transform:uppercase;
+}
+#content h4 {
+	
+}
 #content p {
 	width:520px;
-	margin:0 0 0 300px;
-	padding:16px 0 19px;
-	color:#666;
-	font-size:12px;
-	line-height:17px;
+	padding:0 0 1em;
 }
 
 /* schedule table */
 #content table {
 	width:530px;
-	margin:0 0 0 290px;
+	margin:0 0 1em 290px;
 	border-spacing:10px 0;
 }
 #content table th,
@@ -182,7 +194,8 @@ body {
 }*/
 
 #content table h3 {
-	/*text-transform:uppercase;*/
+	margin:0;
+	text-transform:none;
 }
 #content table p {
 	width:auto;
