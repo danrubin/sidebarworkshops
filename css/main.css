@@ -175,6 +175,51 @@ body {
 	border-bottom:2px solid #e6e6e6;
 }
 
+#content #register a#button {
+	display:block;
+	position:relative;
+	height:36px;
+	margin:3px 0 0 -6px;
+	padding:3px 6px;
+	line-height:1;
+}
+#content #register a#button:hover {
+	background:#f8f8f8;
+	border:none;
+}
+#content #register #button .hidden { display:none; }
+#content #register #button #registration-price {
+	float:left;
+	position:relative;
+	top:3px;
+	margin-right:5px;
+	color:#666;
+	font-size:36px;
+}
+#content #register #button #registration-type {
+	float:left;
+	position:relative;
+	top:6px;
+	color:#808080;
+	font-size:14px;
+	line-height:14px;
+}
+#content #register #button #discount-notice {
+	display:block;
+	color:#bfbfbf;
+	font-size:12px;
+}
+#content #register #button #register-now {
+	float:left;
+	margin-left:10px;
+	padding-left:10px;
+	padding:5px 0 0 10px;
+	border-left:3px solid #f2f2f2;
+	font-size:30px;
+	letter-spacing:-1px;
+}
+
+
 
 /* schedule table */
 #content table {
