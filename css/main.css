@@ -140,6 +140,7 @@ body {
 	text-indent:-9999px;
 }
 #content img.feature {
+	margin-top:-16px;
 	border:6px solid #f2f2f2;
 }
 /* red headings */
@@ -165,6 +166,10 @@ body {
 #content p {
 	width:520px;
 	padding:0 0 1em;
+}
+#content #register p img {
+	float:right;
+	margin:0 0 0 10px;
 }
 #content p a:hover {
 	border-bottom:2px solid #e6e6e6;
