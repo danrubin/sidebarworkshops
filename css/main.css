@@ -134,20 +134,68 @@ body {
 	border-top:6px solid #f2f2f2;
 	text-indent:-9999px;
 }
-#content p {
-	width:540px;
-	margin:0 0 0 300px;
-	padding:15px 0 19px;
-	color:#333;
-	font-size:12px;
-	line-height:17px;
-}
-
 /* red headings */
 #content #register h2 { background-image:url(images/hdr-register.png); }
 #content #about h2 { background-image:url(images/hdr-about.png); }
 #content #location h2 { background-image:url(images/hdr-location.png); }
 #content #contact h2 { background-image:url(images/hdr-contact.png); }
+
+
+#content p {
+	width:520px;
+	margin:0 0 0 300px;
+	padding:15px 0 19px;
+	color:#666;
+	font-size:12px;
+	line-height:17px;
+}
+
+/* schedule table */
+#content table {
+	width:530px;
+	margin:0 0 0 290px;
+	border-spacing:10px 0;
+}
+#content table th,
+#content table td,
+#content table p {
+	color:#999;
+	font-size:10px;
+	font-weight:bold;
+	line-height:12px;
+	vertical-align:top;
+}
+#content table th {
+	padding:6px 6px 3px;
+	border-top:6px solid #e6e6e6;
+	color:#ccc;
+	text-align:left;
+	text-transform:uppercase;
+}
+#content table td {
+	padding:6px 6px 12px;
+	border-top:6px solid #f2f2f2;
+}
+/*#content table tr:first-child td {
+	border-top:6px solid #e6e6e6;
+}*/
+
+#content table h3 {
+	/*text-transform:uppercase;*/
+}
+#content table p {
+	width:auto;
+	margin:0;
+	padding:0;
+	font-weight:normal;
+}
+#content table td a {
+	display:block;
+	color:#999;
+}
+#content table td a:hover {
+	color:#ad1d0a;
+}
 
 
 #footer {
