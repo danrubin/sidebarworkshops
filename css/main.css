@@ -4,7 +4,7 @@
 -----------------------------------------------
 sidebar workshops
 author: dan rubin
-edited: 2008-09-30
+edited: 2008-10-01
 ----------------------------------------------- */
 
 /* override anything global */
@@ -184,7 +184,7 @@ body {
 	display:block;
 	position:relative;
 	height:36px;
-	margin:3px 0 0 -6px;
+	margin:3px -6px 0 -6px;
 	padding:3px 6px;
 	line-height:1;
 }
