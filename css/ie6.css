@@ -1,0 +1,12 @@
+/*
+-----------------------------------------------
+sidebar workshops styles for IE6 and earlier
+author: dan rubin
+edited: 2008-10-01
+----------------------------------------------- */
+
+#header h1 {background:url(../../css/images/logo.png) no-repeat;}
+#header h1 a {background:transparent;}
+#content {margin-top:-148px;background-image:none;overflow:visible;}
+#content a#callout {margin:0 -6px 0 -6px;}
+#content img.feature {margin-top:0;}

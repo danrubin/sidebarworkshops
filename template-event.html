@@ -18,9 +18,36 @@
 	
 	<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" media="all" href="css/main.css" />
-    <script src="js/jquery_123.js" type="text/javascript"></script>
-    <script src="js/jquery_scrollto.js" type="text/javascript"></script>
-    <script src="js/workshops.js" type="text/javascript"></script>
+    <style type="text/css" media="screen">
+         /* custom styles for this city and color scheme */
+         body { background:#430a03; }
+         #wrapper { border-color:#3c0903; }
+         /*#content a { color:#; }*/
+         #header { background-image:url(../../css/images/bg-header-washingtondc-2008.jpg); }
+         #callout { background-image:url(../../css/images/bg-callout-washingtondc-2008.png); }
+         #title h2 { background-image:url(../../css/images/title-washingtondc-2008.png); }
+     </style>
+     <script src="../../js/jquery_123.js" type="text/javascript"></script>
+     <script src="../../js/jquery_scrollto.js" type="text/javascript"></script>
+     <script src="../../js/workshops.js" type="text/javascript"></script>
+     <!--[if IE]>
+         <link rel="stylesheet" type="text/css" media="all" href="../../css/ie.css" />
+     <![endif]-->
+     <!--[if lt IE 7]>
+         <link rel="stylesheet" type="text/css" media="all" href="../../css/ie6.css" />
+         <style type="text/css" media="screen">
+             #callout { background-image:url(../../css/images/bg-callout-washingtondc-2008-ie.png); }
+         </style>
+         <script src="../../js/jquery_pngfix.js" type="text/javascript"></script>
+         <script type="text/javascript" charset="utf-8">
+             jQuery(function($) {
+                 $("#header h1, #title, #title h2").pngfix();
+                 $("#shadow").pngfix({
+     				sizingMethod: "scale"
+     			});
+             });
+         </script>
+     <![endif]-->
 </head>
 
 <body>
@@ -57,106 +84,106 @@
     	    
     	    <div id="about">
     	       <h2>What You'll Learn</h2>
-    	       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-    	       
-    	       <table border="0" cellspacing="10" cellpadding="0">
-      	           <thead>
-          	           <tr>
-          	               <th>Time</th>
-          	               <th>Description</th>
-          	               <th>Speaker</th>
-          	           </tr>
-      	           </thead>
-      	           <tbody>
-      	               <tr>
-         	               <td>8:00am &ndash; 9:00am</td>
-         	               <td>
-         	                   <h3>Registration &amp; Breakfast</h3>
-         	                   <p>Get to the hotel bright and early to pick up your namebadge and grab a snack before the first session.</p>
-         	               </td>
-         	               <td>n/a</td>
-         	           </tr>
-         	           <tr>
-        	               <td>9:00am &ndash; 9:15am</td>
-        	               <td>
-        	                   <h3>Welcome &amp; Introduction</h3>
-        	               </td>
-        	               <td>n/a</td>
-        	           </tr>
-          	           <tr>
-          	               <td>9:15am &ndash; 10:30am</td>
+               <p><strong>Front-End Development: From Design to Implementation</strong></p>
+               
+               <table border="0" cellspacing="10" cellpadding="0">
+       	           <thead>
+           	           <tr>
+           	               <th>Time</th>
+           	               <th>Description</th>
+           	               <th>Speaker</th>
+           	           </tr>
+       	           </thead>
+       	           <tbody>
+       	               <tr>
+          	               <td>8:00am &ndash; 9:00am</td>
           	               <td>
-          	                   <h3>Planning &amp; Designing Your Interface</h3>
-          	                   <p>You have a concept and a feature list, now what? Bryan walks you through .</p>
+          	                   <h3>Registration &amp; Breakfast</h3>
+          	                   <p>Get to the hotel bright and early to pick up your namebadge and grab a snack before the first session.</p>
           	               </td>
-          	               <td><a href="#bryanveloso">Bryan Veloso</a></td>
+          	               <td>&nbsp;</td>
           	           </tr>
           	           <tr>
-         	               <td>10:30am &ndash; 10:45am</td>
+         	               <td>9:00am &ndash; 9:15am</td>
          	               <td>
-         	                   <h3>Mid-Morning Break</h3>
-         	                   <p>A quick pause between sessions&mdash;just enough time to grab some coffee and check your email.</p>
+         	                   <h3>Welcome &amp; Introduction</h3>
          	               </td>
-         	               <td>n/a</td>
+         	               <td>&nbsp;</td>
          	           </tr>
+           	           <tr class="session">
+           	               <td>9:15am &ndash; 10:30am</td>
+           	               <td>
+           	                   <h3>Planning &amp; Designing Your Interface</h3>
+           	                   <p>You have a concept and a feature list, now what? Bryan helps you organize and label your content, and teaches you to find zen in the most subtle details.</p>
+           	               </td>
+           	               <td><a href="#bryanveloso">Bryan Veloso</a></td>
+           	           </tr>
+           	           <tr>
+          	               <td>10:30am &ndash; 10:45am</td>
+          	               <td>
+          	                   <h3>Mid-Morning Break</h3>
+          	                   <p>A quick pause between sessions&mdash;just enough time to grab some coffee and check your email.</p>
+          	               </td>
+          	               <td>&nbsp;</td>
+          	           </tr>
+           	           <tr class="session">
+          	               <td>10:45am &ndash; 12:00pm</td>
+          	               <td>
+          	                   <h3>Slicing &amp; Dicing: Exporting &amp; Optimizing Images</h3>
+          	                   <p>Now that you have your design, Dan teaches you to translate your carefully crafted layers into creatively flattened retangles, and how to pick the best image type and compression to achieve the right balance of good looks and slim file sizes.</p>
+          	               </td>
+          	               <td><a href="#danrubin">Dan Rubin</a></td>
+          	           </tr>
           	           <tr>
-         	               <td>10:45am &ndash; 12:00pm</td>
+          	               <td>12:00pm &ndash; 1:15pm</td>
+          	               <td>
+          	                   <h3>Lunch</h3>
+          	                   <p>Lunch will be catered in. This is a time to refuel, and get to know the other attendees and the speakers.</p>
+          	               </td>
+          	               <td>&nbsp;</td>
+          	           </tr>
+          	           <tr class="session">
+          	               <td>1:15pm &ndash; 2:30pm</td>
+          	               <td>
+          	                   <h3>HTML/CSS: Putting it All Together</h3>
+          	                   <p>With a design and prepared images in hand, Steve shows you simple yet powerful methods and patterns to build your markup and style. Maybe even a little HTML5/CSS3.</p>
+          	               </td>
+          	               <td><a href="#stevesmith">Steve Smith</a></td>
+          	           </tr>
+          	           <tr>
+          	               <td>2:30pm &ndash; 2:45pm</td>
+          	               <td>
+          	                   <h3>Afternoon Break</h3>
+          	                   <p>A quick pause between sessions&mdash;just enough time to grab some coffee and check your email.</p>
+          	               </td>
+          	               <td>&nbsp;</td>
+          	           </tr>
+          	           <tr class="session">
+          	               <td>2:45pm &ndash; 4:00pm</td>
+          	               <td>
+          	                   <h3>Javascript Libraries &amp; You</h3>
+          	                   <p>Once you have your markup and styles, Jonathan walks you through simple, effective and time-saving ways to add behavior with popular JS libraries.</p>
+          	               </td>
+          	               <td><a href="#jonathansnook">Jonathan Snook</a></td>
+          	           </tr>
+          	           <tr class="session">
+          	               <td>4:00pm &ndash; 5:00pm</td>
+          	               <td>
+          	                   <h3>Group Discussion / Q&amp;A</h3>
+          	                   <p>Bryan, Dan, Jonathan and Steve will answer your questions, critique your work, make fun of each other&mdash;this is where you get to direct the show.</p>
+          	               </td>
+          	               <td>All</td>
+          	           </tr>
+          	           <tr>
+         	               <td>5:00pm &ndash; whenever</td>
          	               <td>
-         	                   <h3>Slicing &amp; Dicing: Exporting &amp; Optimizing Images</h3>
-         	                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         	                   <h3>Drinks &amp; Conversation</h3>
+         	                   <p>Join us in the hotel lounge for a casual and relaxed few hours of conversation&mdash;invite your friends, too!</p>
          	               </td>
-         	               <td><a href="#danrubin">Dan Rubin</a></td>
+         	               <td>&nbsp;</td>
          	           </tr>
-         	           <tr>
-         	               <td>12:00pm &ndash; 1:15pm</td>
-         	               <td>
-         	                   <h3>Lunch</h3>
-         	                   <p>A quick pause between sessions&mdash;just enough time to grab some coffee and check your email.</p>
-         	               </td>
-         	               <td>n/a</td>
-         	           </tr>
-         	           <tr>
-         	               <td>1:15pm &ndash; 2:30pm</td>
-         	               <td>
-         	                   <h3>XHTML/CSS: Putting it All Together</h3>
-         	                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-         	               </td>
-         	               <td><a href="#stevesmith">Steve Smith</a></td>
-         	           </tr>
-         	           <tr>
-         	               <td>2:30pm &ndash; 2:45pm</td>
-         	               <td>
-         	                   <h3>Afternoon Break</h3>
-         	                   <p>A quick pause between sessions&mdash;just enough time to grab some coffee and check your email.</p>
-         	               </td>
-         	               <td>n/a</td>
-         	           </tr>
-         	           <tr>
-         	               <td>2:45pm &ndash; 4:00pm</td>
-         	               <td>
-         	                   <h3>Javascript Libraries &amp; You</h3>
-         	                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-         	               </td>
-         	               <td><a href="#jonathansnook">Jonathan Snook</a></td>
-         	           </tr>
-         	           <tr>
-         	               <td>4:00pm &ndash; 5:00pm</td>
-         	               <td>
-         	                   <h3>Group Discussion / Q&amp;A</h3>
-         	                   <p>Bryan, Dan, Jon and Steve will answer your questions, critique your work, make fun of each other&mdash;this is where you get to direct the show.</p>
-         	               </td>
-         	               <td>All</td>
-         	           </tr>
-         	           <tr>
-        	               <td>5:00pm &ndash; whenever</td>
-        	               <td>
-        	                   <h3>Drinks &amp; Conversation</h3>
-        	                   <p>Join us in the hotel lounge for a casual and relaxed few hours of conversation&mdash;invite your friends, too!</p>
-        	               </td>
-        	               <td>n/a</td>
-        	           </tr>
-     	           </tbody>
-      	       </table>
+      	           </tbody>
+       	       </table>
     	       
     	       <h3>The speakers</h3>
     	       <h4 id="danrubin">Dan Rubin</h4>

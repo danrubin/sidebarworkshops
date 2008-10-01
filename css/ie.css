@@ -1,0 +1,10 @@
+/*
+-----------------------------------------------
+sidebar workshops styles for IE
+author: dan rubin
+edited: 2008-10-01
+----------------------------------------------- */
+
+#content {zoom:1;}
+#content #register a#button {white-space:nowrap;cursor:pointer;}
+#content #register #button #register-now {letter-spacing:-2px;}
