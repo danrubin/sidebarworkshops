@@ -1,0 +1,301 @@
+/*
+-----------------------------------------------
+sidebar workshops - event stylesheet
+author: dan rubin
+edited: 2008-10-05
+----------------------------------------------- */
+
+@import url("reset.css");
+
+/* override anything global */
+a {
+	color:#ad1d0a;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+/* layout elements */
+body {
+    background-color:#fff;
+    font:12px/17px "Helvetica Neue",Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif
+}
+#wrapper {
+	width:940px;
+	margin:0 auto;
+	background:#0d0d0d;
+	border-width:0 6px;
+	border-color:#f2f2f2;
+	border-style:solid;
+}
+
+#header {
+	position:relative;
+	display:block;
+	width:100%;
+	height:568px;
+	margin:0;
+	background-repeat:no-repeat;
+}
+#shadow {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:120px;
+	background:url(images/bg-header-shadow.png) repeat-x;
+}
+#header h1 {
+    margin:0;
+    position:absolute;
+	left:0;
+	top:10px;
+	height:67px;
+	width:280px;
+}
+#header h1 a {
+    display:block;
+    width:100%;
+    height:100%;
+	background:url(images/logo.png) no-repeat;
+	text-indent:-9999px;
+}
+#header h1 a:hover {
+	background-position:0 -67px;
+}
+
+#title {
+	position:absolute;
+	right:0;
+	top:36px;
+	width:540px;
+	height:194px;
+	margin:0;
+	background:url(images/bg-title.png) no-repeat;
+}
+#title h2 {
+	height:133px;
+	width:484px;
+	margin:50px 0 0 17px;
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+}
+#title h3 {
+	text-indent:-9999px;
+}
+
+#nav {
+	position:absolute;
+	right:0;
+	top:230px;
+	height:31px;
+	width:540px;
+	margin:0;
+}
+#nav li {
+	float:left;
+	list-style:none;
+	margin:0 3px 0 0;
+}
+#nav li a {
+	float:left;
+	height:31px;
+	padding:0 20px;
+	background:url(images/bg-nav.png);
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	line-height:33px;
+	text-align:center;
+}
+#nav li a:hover {
+	background:#99100f;
+}
+
+#content {
+	position:relative;
+	z-index:1;
+	margin:-95px 25px 0;
+	padding:15px 15px 0;
+	background:url(images/bg-content.png) no-repeat;
+}
+#content a#callout {
+	display:block;
+	width:872px;
+	height:53px;
+	margin:-53px 0 0 -6px;
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+}
+#content a#callout:hover {
+	background-position:0 -53px;
+}
+
+#content div {
+	padding:16px 0 1em;
+	background-color:#fff;
+}
+#content h2 {
+	float:left;
+	width:240px;
+	height:23px;
+	margin-top:-16px;
+	background-repeat:no-repeat;
+	background-position:9px 9px;
+	border-top:6px solid #f2f2f2;
+	text-indent:-9999px;
+}
+#content img.feature {
+	margin-top:-16px;
+	border:6px solid #f2f2f2;
+}
+/* red headings */
+#content #register h2 { background-image:url(images/hdr-register.png); }
+#content #about h2 { background-image:url(images/hdr-about.png); }
+#content #location h2 { background-image:url(images/hdr-location.png); }
+#content #contact h2 { background-image:url(images/hdr-contact.png); }
+
+#content h3,
+#content h4,
+#content p {
+	margin:0 0 0 300px;
+	color:#666;
+}
+#content h3 {
+	margin-bottom:.5em;
+	color:#999;
+	text-transform:uppercase;
+}
+#content h4 {
+	
+}
+#content p {
+	width:520px;
+	padding:0 0 1em;
+}
+#content #register p img {
+	float:right;
+	margin:0 0 0 10px;
+}
+#content p a:hover {
+	border-bottom:2px solid #e6e6e6;
+}
+
+#content #register a#button {
+	display:block;
+	position:relative;
+	height:36px;
+	margin:3px -6px 0 -6px;
+	padding:3px 6px;
+	line-height:1;
+}
+#content #register a#button:hover {
+	background:#f8f8f8;
+	border:none;
+}
+#content #register #button .hidden { display:none; }
+#content #register #button #registration-price {
+	float:left;
+	position:relative;
+	top:3px;
+	margin-right:5px;
+	color:#666;
+	font-size:36px;
+}
+#content #register #button #registration-type {
+	float:left;
+	position:relative;
+	top:6px;
+	color:#808080;
+	font-size:14px;
+	line-height:14px;
+}
+#content #register #button #discount-notice {
+	display:block;
+	color:#bfbfbf;
+	font-size:12px;
+}
+#content #register #button #register-now {
+	float:left;
+	margin-left:10px;
+	padding:5px 0 0 10px;
+	border-left:3px solid #f2f2f2;
+	font-size:30px;
+	letter-spacing:-1px;
+}
+
+
+
+/* schedule table */
+#content table {
+	width:530px;
+	margin:0 0 1em 290px;
+	border-spacing:10px 0;
+}
+#content table th,
+#content table td,
+#content table p {
+	color:#999;
+	font-size:10px;
+	font-weight:bold;
+	line-height:12px;
+	vertical-align:top;
+}
+#content table th {
+	padding:6px 6px 3px;
+	border-top:6px solid #e6e6e6;
+	color:#ccc;
+	text-align:left;
+	text-transform:uppercase;
+}
+#content table td {
+	padding:6px 6px 12px;
+	border-top:6px solid #f2f2f2;
+}
+/*#content table tr:first-child td {
+	border-top:6px solid #e6e6e6;
+}*/
+
+#content table h3 {
+	margin:0;
+	text-transform:none;
+}
+#content table p {
+	width:auto;
+	margin:0;
+	padding:0;
+	font-weight:normal;
+}
+#content table td a {
+	display:block;
+	color:#777;
+}
+#content table td a:hover {
+	color:#ad1d0a;
+}
+
+#content table tr.session td,
+#content table tr.session h3,
+#content table tr.session p {
+	color:#777;
+}
+
+
+#footer {
+	margin:20px 40px 0;
+	padding:3px 0 20px;
+	border-top:3px solid #2d2d2d;
+	color:#3e3e3e;
+	font-size:10px;
+	font-weight:bold;
+}
+#footer p {
+	margin-bottom:0;
+}
+#footer a {
+	padding:1px;
+	color:#3e3e3e;
+}
+#footer a:hover {
+	border-bottom:2px solid #1e1e1e;
+	color:#474747;
+}
