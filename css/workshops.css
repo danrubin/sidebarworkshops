@@ -231,6 +231,9 @@ body {
 	margin:0 0 1em 290px;
 	border-spacing:10px 0;
 }
+#content table .time {
+    width:110px;
+}
 #content table th,
 #content table td,
 #content table p {
