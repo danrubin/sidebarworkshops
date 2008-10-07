@@ -2,7 +2,7 @@
 -----------------------------------------------
 sidebar workshops - event stylesheet
 author: dan rubin
-edited: 2008-10-05
+edited: 2008-10-07
 ----------------------------------------------- */
 
 @import url("reset.css");
@@ -165,8 +165,8 @@ body {
 	color:#999;
 	text-transform:uppercase;
 }
-#content h4 {
-	
+#content h4 em {
+	font-style:normal;
 }
 #content p {
 	width:520px;
@@ -176,6 +176,7 @@ body {
 	float:right;
 	margin:0 0 0 10px;
 }
+#content h4 a:hover,
 #content p a:hover {
 	border-bottom:2px solid #e6e6e6;
 }
